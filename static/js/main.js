@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Update last modified date
     const lastModified = document.getElementById('last-modified');
     if (lastModified) {
-        lastModified.textContent = "2025-01-22 21:05:30";
+        lastModified.textContent = "2025-01-22 22:30:23";
     }
 
     // Add user info

@@ -1,7 +1,49 @@
-# Create a new file called .gitignore and add these lines
-__pycache__/
-*.pyc
-.env
-.DS_Store
+# Virtual Environment
 venv/
+env/
+.env/
+.venv/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+instance/
+.pytest_cache/
+
+# Flask
+flask_session/
+.flask_session/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
 *.log
+logs/
+
+# Environment variables
+.env
+.flaskenv
+
+# Database
+*.db
+*.sqlite3
+
+# Backup files
+*~
+*.bak
