@@ -1,0 +1,7 @@
+# Create a new file called .gitignore and add these lines
+__pycache__/
+*.pyc
+.env
+.DS_Store
+venv/
+*.log
