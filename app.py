@@ -4,8 +4,8 @@ from datetime import datetime
 app = Flask(__name__)
 
 @app.route('/')
-def home():
-    return render_template('home.html', 
+def index():
+    return render_template('index.html', 
                          name="Rishi Varma Kaladindi",
                          current_time=datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S'))
 

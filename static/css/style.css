@@ -311,3 +311,40 @@ body {
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
+/* Custom hamburger icon for light background */
+.navbar-toggler {
+    border-color: rgba(255,255,255,0.8) !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.8)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+/* Ensure dropdown menu has proper background on mobile */
+.navbar-collapse {
+    background-color: var(--primary-color);
+    padding: 10px;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Add some spacing to mobile menu items */
+@media (max-width: 991px) {
+    .navbar-nav {
+        padding: 10px 0;
+    }
+    
+    .nav-item {
+        padding: 5px 15px;
+    }
+
+    .nav-link {
+        padding: 8px 0;
+        border-bottom: 1px solid rgba(255,255,255,0.1);
+    }
+
+    .nav-item:last-child .nav-link {
+        border-bottom: none;
+    }
+}
+
